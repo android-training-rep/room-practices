@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RoomPractices</string>
+    <string name="to_view_user">To View User Page</string>
+    <string name="to_add_user">To Add User Page</string>
+    <string name="username">Username:</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
 </resources>
