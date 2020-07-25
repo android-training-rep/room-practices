@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase;
 import com.example.roompractices.dao.UserDao;
 import com.example.roompractices.entity.User;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 1, exportSchema = false)
 public abstract class UserDatabase extends RoomDatabase {
     public abstract UserDao userDao();
 

@@ -15,7 +15,7 @@ public class MyApplication extends Application {
         mContext = getApplicationContext();
     }
 
-    public UserDao getUserDao() {
+    public static UserDao getUserDao() {
         return UserDatabase.getInstance(mContext).userDao();
     }
 }

@@ -10,4 +10,10 @@ public class User {
     public String username;
     public int age;
     public int gender;
+
+    public User(String username, int age, int gender) {
+        this.username = username;
+        this.age = age;
+        this.gender = gender;
+    }
 }
