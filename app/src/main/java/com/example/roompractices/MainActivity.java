@@ -4,10 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final int ADD_USER_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SubmitActivity.class);
         startActivity(intent);
     }
-
     private void toViewPage() {
         Intent intent = new Intent(this, ViewActivity.class);
         startActivity(intent);
